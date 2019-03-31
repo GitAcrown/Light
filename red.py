@@ -36,7 +36,7 @@ from io import TextIOWrapper
 #                 https://github.com/Rapptz/RoboDanny/
 #
 
-description = "Light - Bot mutlifonctions français pour Discord, version réduite de Stay"
+description = "Turing - Bot mutlifonctions français pour Discord"
 
 
 class Bot(commands.Bot):
@@ -301,7 +301,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         owner = await set_bot_owner()
 
         print("-----------------")
-        print("Light - Bot Discord")
+        print("Turing - Bot Discord")
         print("-----------------")
         print(str(bot.user))
         print("\nConnecté :")
@@ -318,7 +318,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         print("-----------------")
 
         if bot.settings.token and not bot.settings.self_bot:
-            print("\nUtilisez cette URL pour connecter Light à votre serveur:")
+            print("\nUtilisez cette URL pour connecter Turing à votre serveur:")
             url = await get_oauth_url()
             bot.oauth_url = url
             print(url)
@@ -399,7 +399,7 @@ def interactive_setup(settings):
     first_run = settings.bot_settings == settings.default_settings
 
     if first_run:
-        print("Light - Configuration\n")
+        print("Turing - Configuration\n")
         print("Créez dans un premier temps un compte BOT en suivant ce didacticiel de Red:\n"
               "https://twentysix26.github.io/Red-Docs/red_guide_bot_accounts/"
               "#creating-a-new-bot-account")
@@ -531,7 +531,7 @@ def load_cogs(bot):
     owner_cog = bot.get_cog('Owner')
     if owner_cog is None:
         print("Le module 'Owner' est introuvable. Réinstallez-le, il contient des fonctionnalités qui sont"
-              " nécessaire au bon fonctionnement de Light.")
+              " nécessaire au bon fonctionnement de Turing.")
         exit(1)
 
     if bot.settings._no_cogs:
