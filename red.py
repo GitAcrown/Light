@@ -36,7 +36,7 @@ from io import TextIOWrapper
 #                 https://github.com/Rapptz/RoboDanny/
 #
 
-description = "Turing - Bot mutlifonctions français pour Discord"
+description = "Electron - Bot mutlifonctions français pour Discord, version light"
 
 
 class Bot(commands.Bot):
