@@ -16,3 +16,4 @@ numpy
 pyfootball
 country_converter
 lyricwikia
+colorthief
