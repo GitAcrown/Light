@@ -1,12 +1,9 @@
 pip
-git+https://github.com/abenassi/Google-Search-API
 youtube_dl
 imgurpython
 wikipedia
 wikipedia-api
 pyowm
-gspread
-dialogflow
 oauth2client
 schedule
 PyOpenSSL
